@@ -32,7 +32,7 @@ const Projects = ({darkMode}) => {
       icon1: faHtml5,
       icon2: faCss3Alt,
       icon3: faJs,
-      icon4: null,
+      icon4: faBootstrap,
       icon5: faGit,
       icon6: null,
       url: '#',

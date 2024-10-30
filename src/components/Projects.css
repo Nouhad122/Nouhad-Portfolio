@@ -4,7 +4,7 @@
 .projects-header{
     text-align: center;
     width: 100%;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: var(--lightFontColor);
 }
 .dark-header{
@@ -44,6 +44,7 @@
     padding: 20px;
     text-align: center;
     color: var(--lightFontColor);
+    font-size: 1.5rem;
 }
 .dark-title{
     background-color: var(--darkPencilColor);
@@ -58,7 +59,7 @@
     transform: translate(-50%,-50%);
     padding: 30px;
     color: var(--fontColor);
-    font-size: 1.2rem;
+    font-size: .9rem;
     line-height: 30px;
     opacity: 100%;
     transition: .6s ease;
@@ -68,7 +69,7 @@
     left: 50%;
     top: 50%;
     z-index: 192;
-    font-size: 6rem;
+    font-size: 4rem;
     transform: translate(-50%,-50%);
     display: flex;
     gap: 40px;
@@ -85,7 +86,6 @@
     left: 0;
     z-index: 200;
     transition: 1.2s ease;
-    /* filter: grayscale(100%); */
 }
 .dark-project-box::before{
     background-image: url(../../src/assets/projects-statues.jpg) !important;
@@ -98,10 +98,10 @@
     opacity: 0;
 }
 .project-box:hover{
-    box-shadow: 0px 3px 10px 10px var(--blueColor);
+    box-shadow: 0px 1px 5px 5px var(--blueColor);
 }
 .dark-project-box:hover{
-    box-shadow: 0px 3px 10px 10px var(--goldColor);
+    box-shadow: 0px 1px 5px 5px var(--goldColor);
 }
 .project-box img{
     width: 100%;

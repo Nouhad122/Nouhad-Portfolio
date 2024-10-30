@@ -15,7 +15,7 @@
 }
 
 .home-description h1{
-    font-size: 6.5rem;
+    font-size: 4rem;
     animation: upToDown 2s ease;
 }
 .home-description h3{
@@ -119,14 +119,14 @@
 }
 .line2{
     height: 2px;
-    width: 60px;
+    width: 80px;
     background-color: var(--blueColor);
 }
 .dark-line{
     background-color: var(--goldColor);
 }
 .my-email h3{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 .email-link{
     color: var(--lightFontColor);
@@ -152,7 +152,7 @@
     color: var(--darkFontColor);
 }
 .social-icon{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }
 .social-icon:hover{
     color: var(--blueColor);

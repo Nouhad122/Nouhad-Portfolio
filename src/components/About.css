@@ -20,13 +20,14 @@
     align-items: center;
 }
 .about-description h1{
-    font-size: 4.5rem;
+    font-size: 4rem;
     margin-top: 5px;
     margin-bottom: 10px;
     animation: opacity 3s ease;
 }
 .about-description h3{
     font-size: 1.2rem;
+    color: var(--fontColor);
 }
 .my-major{
     color: var(--blueColor);

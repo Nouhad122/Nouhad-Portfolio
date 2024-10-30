@@ -7,7 +7,7 @@ footer{
     z-index: 900;
     box-shadow: inset 0px -1px 15px var(--blueColor);
     color: var(--lightFontColor);
-    font-size: .9rem;
+    font-size: .7rem;
 }
 .dark-footer{
     background-color: var(--darkBodyColor);
