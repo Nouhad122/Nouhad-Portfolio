@@ -107,14 +107,13 @@
 @media screen and (max-width: 1450px){
     .skill-box{
         width: 100%;
-        height: 90px;
-
+        height: 90px
     }
     .skill-box-opened{
-        min-height: 300px !important;
+        min-height: 330px !important;
     }
     .my-skills-container{
-        grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+        grid-template-columns: repeat(auto-fit,minmax(250px,1fr)) !important;
         padding: 50px 20px;
         justify-items: center;
     }
@@ -141,8 +140,17 @@
         font-size: .8rem;
     }
     .skill-box{
-        width: 80%;
+        width: 90%;
         height: 91px;
     }
+    .skill-box-opened{
+        min-height: 250px !important;
+    }
 
+}
+@media screen and (max-width: 340px){
+    .skill-box-opened{
+        min-height: 380px !important;
+    }
+    
 }

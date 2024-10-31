@@ -110,8 +110,8 @@
     }
 }
 @media screen and (max-width: 680px){
-    .about-description{
-        padding: 10px;
+    .about-section{
+        height: calc(60vh - 85px);
     }
     .about-image{
         display: none;

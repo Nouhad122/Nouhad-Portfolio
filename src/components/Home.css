@@ -232,6 +232,9 @@
     }
 }
 @media screen and (max-width: 680px){
+    .home-section{
+        height: calc(60vh - 85px);
+    }
     .home-description{
         padding: 10px;
     }

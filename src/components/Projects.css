@@ -11,9 +11,9 @@
     color: var(--darkFontColor);
 }
 .projects-container{
-    display: grid;
-    grid-template-columns: repeat(1,.9fr);
-    grid-row-gap: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
     padding: 50px;
     justify-content: center;
 }
@@ -111,6 +111,7 @@
     left: 0;
     z-index: 149;
     filter: blur(1px);
+    object-fit: cover;
 }
 @keyframes opacity {
     from{
@@ -137,8 +138,6 @@
 @media screen and (max-width: 946px){
     .projects-container{
         padding: 30px 0;
-        grid-template-columns: repeat(1,1fr);
-        justify-content: flex-start;
     }
 }
 
@@ -155,6 +154,8 @@
     }
     .project-box{
         height: 65vh;
+        justify-self: center;
+        width: 80%;
     }
     .project-description{
         height: 100%;
