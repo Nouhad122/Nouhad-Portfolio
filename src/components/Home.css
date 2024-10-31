@@ -249,6 +249,12 @@
     .home-description p{
         white-space: nowrap;
     }
+    .my-email{
+        right: -210px;
+    }
+    .social-media{
+        left: -150px;
+    }
 }
 @media screen and (max-width: 407px){
     .home-description h1{

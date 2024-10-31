@@ -154,8 +154,8 @@
     }
     .project-box{
         height: 94vh;
+        width: 87%;
         justify-self: center;
-        width: 80%;
     }
     .project-description{
         height: 100%;
