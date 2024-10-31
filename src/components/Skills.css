@@ -132,6 +132,12 @@
         font-size: .9rem;
     }
 }
+@media screen and (max-width: 650px){
+    .skill-box:hover{
+        transform: rotate(0deg);
+    }
+    
+}
 @media screen and (max-width: 400px){
     .skills-section{
         padding: 0;
