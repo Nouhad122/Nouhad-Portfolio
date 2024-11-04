@@ -2,48 +2,31 @@ import React, { useState } from 'react';
 import clubConnect from '../../src/assets/club-connect.png';
 import soulaymaBoutique from '../../src/assets/soulayma-boutique.png';
 import CRUDS from '../../src/assets/cruds.png';
+import clipCast from '../../src/assets/clipCast.png';
 import '../components/Projects.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHtml5, faCss3Alt, faJs, faBootstrap, faGit, faPython } from '@fortawesome/free-brands-svg-icons';
+import { faHtml5, faCss3Alt, faJs, faBootstrap, faGit, faPython, faReact } from '@fortawesome/free-brands-svg-icons';
 
 const Projects = ({darkMode}) => {
   const projects = ([
     {
       id: 0,
-      title: "ClubConnect",
-      image: clubConnect,
-      icon1: faHtml5,
-      icon2: faCss3Alt,
-      icon3: faJs,
-      icon4: faBootstrap,
-      icon5: faGit,
-      icon6: faPython,
-      url: '#',
-      paragraph: `Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-       Pellentesque pulvinar pellentesque habitant morbi tristique. Et netus et malesuada fames ac.
-        Nec sagittis aliquam malesuada bibendum arcu. Lobortis elementum nibh tellus molestie nunc
-         non blandit massa. Nisl suscipit adipiscing bibendum est ultricies integer.`
-    },
-    {
-      id: 1,
       title: "Soulayma Boutique",
       image: soulaymaBoutique,
-      icon1: faHtml5,
+      icon1: faReact,
       icon2: faCss3Alt,
-      icon3: faJs,
+      icon3: null,
       icon4: faBootstrap,
       icon5: faGit,
       icon6: null,
-      url: '#',
-      paragraph: `Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-       Pellentesque pulvinar pellentesque habitant morbi tristique. Et netus et malesuada fames ac.
-        Nec sagittis aliquam malesuada bibendum arcu. Lobortis elementum nibh tellus molestie nunc
-         non blandit massa. Nisl suscipit adipiscing bibendum est ultricies integer.`
+      url: 'https://soulayma-ecommerce.vercel.app/',
+      paragraph: `Soulayma Boutique is an e-commerce website I created to sell hijabs, abayas, underscarves,
+       bags, and accessories. Built with React, Redux, CSS, Git, and Bootstrap, the platform offers a seamless
+        shopping experience, featuring intuitive navigation and a responsive design. Soulayma Boutique allows
+         users to easily explore categories, view product details, and make purchases efficiently.`
     },
     {
-      id: 2,
+      id: 1,
       title: "CRUDS",
       image: CRUDS,
       icon1: faHtml5,
@@ -52,12 +35,27 @@ const Projects = ({darkMode}) => {
       icon4: null,
       icon5: faGit,
       icon6: null,
-      url: 'https://nouhad122.github.io/cruds/',
-      paragraph: `Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-       Pellentesque pulvinar pellentesque habitant morbi tristique. Et netus et malesuada fames ac.
-        Nec sagittis aliquam malesuada bibendum arcu. Lobortis elementum nibh tellus molestie nunc
-         non blandit massa. Nisl suscipit adipiscing bibendum est ultricies integer.`
+      url: 'https://cruds-chi.vercel.app/',
+      paragraph: `CRUDS is a product management system I developed to handle the inventory of products sold.
+       Built with HTML, CSS, JavaScript, and Git, it allows users to create, read, update, and delete product
+        entries. This system provides an intuitive interface for efficient product tracking, ensuring smooth
+         management of inventory and enhancing operational efficiency.`
+    },
+    {
+      id: 2,
+      title: "ClipCast",
+      image: clipCast,
+      icon1: faReact,
+      icon2: faCss3Alt,
+      icon3: null,
+      icon4: null,
+      icon5: faGit,
+      icon6: null,
+      url: 'https://clip-cast-youtube-api.vercel.app/',
+      paragraph: `ClipCast is a YouTube clone website I developed using React.js, CSS, Git, and API integration.
+       The platform replicates key YouTube features, allowing users to browse, search, and view videos with a sleek,
+        responsive design. By leveraging APIs, ClipCast delivers real-time video content, providing a smooth and
+         engaging user experience similar to popular video streaming sites.`
     }
   ]);
 
